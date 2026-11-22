@@ -614,6 +614,8 @@
 /* Menu = glass layer for calendar / time picker when no overlay is active */
 .dp__menu {
   border-radius: 14px !important;
+  backdrop-filter: blur(10px) saturate(1.8) !important;
+  -webkit-backdrop-filter: blur(40px) saturate(1.8) !important;
 }
 
 .dp__menu:not(:has(.dp__overlay)) {
